@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
         double height_mt = 1.32; // рост человека
-        double weight_kg = 100; // вес человека
-        int bmi= service.calculate(height_mt, weight_kg);
+        double weight_kg = 80; // вес человека
+        int bmi = service.calculate(weight_kg, height_mt);
         System.out.println(bmi);
     }
 }
