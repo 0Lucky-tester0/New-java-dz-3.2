@@ -8,6 +8,6 @@ public class Main {
         double height_mt = 1.32; // рост человека
         double weight_kg = 80; // вес человека
         int bmi = service.calculate(weight_kg, height_mt);
-        System.out.println(bmi);
+        System.out.println("Ваш BMI =" +bmi);
     }
 }
